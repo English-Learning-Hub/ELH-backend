@@ -1,3 +1,22 @@
+# ELH-backend
+an Repository contain The backend for English-Learning-Hub app
+
+# Env
+ADD TO .env
+
+DATABASE_URL="postgresql://<username>:<password>@<host>:<port>/<database>"
+
+JWT_SECRET=<jwt-secret>
+JWT_TTL=7d
+
+CLOUDINARY_CLOUD_NAME=<cloudinary-cloud-name>
+CLOUDINARY_API_KEY=<cloudinary-api-key>
+CLOUDINARY_API_SECRET=<cloudinary-api-secret>
+
+PORT=3003
+
+OPENAI_API_KEY=<openai-api-key>
+GEMINI_API_KEY=<gemini-api-key>
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
