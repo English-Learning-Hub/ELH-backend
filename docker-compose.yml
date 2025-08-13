@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_sql_db
+    restart: always
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: English-Learning-Hub
+      PG_DATA: /var/lib/postgresql/data
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+volumes:
+  dbdata:
+    driver: local
+  cache:
+    driver: local
