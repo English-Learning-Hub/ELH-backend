@@ -1,5 +1,38 @@
 # ELH-backend
-an Repository contain The backend for English-Learning-Hub app
+English-Learning-Hub - Backend
+Đây là kho mã nguồn chứa toàn bộ phần backend cho ứng dụng English-Learning-Hub. Hệ thống được xây dựng trên nền tảng NestJS, cung cấp một bộ API mạnh mẽ, có khả năng mở rộng để quản lý người dùng, bài học, và tích hợp các tính năng AI thông minh để nâng cao trải nghiệm học tập.
+
+✨ Tính năng nổi bật
+Quản lý Bài học Toàn diện: Cung cấp các API để thực hiện đầy đủ các thao tác CRUD (Tạo, Đọc, Cập nhật, Xóa) cho các bài học, bao gồm các loại như ngữ pháp, từ vựng, đọc, viết, v.v.
+
+Xác thực và Phân quyền: Hệ thống xác thực an toàn sử dụng JSON Web Tokens (JWT), đảm bảo chỉ những người dùng hợp lệ mới có thể truy cập và thao tác với dữ liệu.
+
+Tải lên và Quản lý Media: Tích hợp với dịch vụ Cloudinary để xử lý việc tải lên, lưu trữ và phân phối các tài nguyên media (hình ảnh, âm thanh) một cách hiệu quả.
+
+Trợ lý AI Thông minh (Powered by Google Gemini):
+
+Kiểm tra Ngữ pháp: Phân tích và sửa lỗi ngữ pháp trong văn bản do người dùng cung cấp.
+
+Tạo Bài tập Tự động: Dựa trên nội dung bài học, AI có thể tự động tạo ra các bài tập như quiz, flashcard để củng cố kiến thức.
+
+Trích xuất Từ vựng: Tự động nhận diện và trích xuất các từ vựng quan trọng từ văn bản, kèm theo định nghĩa và ví dụ.
+
+Tóm tắt Nội dung: Giúp người dùng nhanh chóng nắm bắt các ý chính của một bài học dài bằng cách tạo ra các bản tóm tắt ngắn gọn.
+
+🚀 Công nghệ sử dụng
+Framework: NestJS - Một framework Node.js tiến bộ để xây dựng các ứng dụng phía máy chủ hiệu quả, đáng tin cậy và có khả năng mở rộng.
+
+Ngôn ngữ: TypeScript - Giúp xây dựng mã nguồn một cách chặt chẽ và giảm thiểu lỗi.
+
+ORM: TypeORM - Một ORM (Object-Relational Mapper) mạnh mẽ để tương tác với cơ sở dữ liệu, hỗ trợ cả Active Record và Data Mapper patterns.
+
+Cơ sở dữ liệu: PostgreSQL - Hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở mạnh mẽ và đáng tin cậy.
+
+Xác thực: Passport.js với chiến lược passport-jwt.
+
+Lưu trữ Media: Cloudinary - Nền tảng quản lý media trên đám mây.
+
+Trí tuệ nhân tạo: Google Gemini AI - Tích hợp thông qua API để cung cấp các tính năng ngôn ngữ thông minh.
 
 # Env
 ADD TO .env
