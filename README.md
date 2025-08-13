@@ -2,31 +2,23 @@
 an Repository contain The backend for English-Learning-Hub app
 
 # Env
+ADD TO .env
+
+DATABASE_URL="postgresql://<username>:<password>@<host>:<port>/<database>"
+
+JWT_SECRET=<jwt-secret>
+JWT_TTL=7d
+
+CLOUDINARY_CLOUD_NAME=<cloudinary-cloud-name>
+CLOUDINARY_API_KEY=<cloudinary-api-key>
+CLOUDINARY_API_SECRET=<cloudinary-api-secret>
 
 PORT=3003
-NODE_ENV=development
-MODE=DEV
 
-DB_TYPE=postgres
-DATABASE_DEBUG_MODE=false
-DATABASE_NAME=English-Learning-Hub
-DATABASE_HOST=pg-25db113a-thinhvinhp-0276.i.aivencloud.com
-DATABASE_USERNAME=avnadmin
-DATABASE_PASSWORD=AVNS_n2AMmGTGpk2IfKU57Ga
-DATABASE_PORT=20186
+GEMINI_API_KEY=<AIzaSyBCtlrf8uzTdshWOAnhKaKlz1rNkn6ioPc>
 
-JWT_SECRET_KEY=super-secret-jwt-key-for-development-only
-JWT_EXPIRES_IN=7d
-JWT_ISSUER=tvp
 
-GEMINI_API_KEY=AIzaSyBCtlrf8uzTdshWOAnhKaKlz1rNkn6ioPc
-OPENAI_API_KEY=sk-test-key
 
-CLOUDINARY_CLOUD_NAME=test-cloud
-CLOUDINARY_API_KEY=test-key
-CLOUDINARY_API_SECRET=test-secret
-OPENAI_API_KEY=<openai-api-key>
-GEMINI_API_KEY=<gemini-api-key>
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
